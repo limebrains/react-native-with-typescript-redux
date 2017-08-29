@@ -20,29 +20,28 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-  <key>CFBundleURLTypes</key>
-  <array>
-    <dict>
-      <key>CFBundleURLSchemes</key>
-      <array>
-        <string>fb{YOUR_FACEBOOK_APP_ID}</string>
-      </array>
-    </dict>
-  </array>
-  <key>FacebookAppID</key>
-  <string>{YOUR_FACEBOOK_APP_ID}</string>
-  <key>FacebookDisplayName</key>
-  <string>YourCoolAppName</string>
-  <key>LSApplicationQueriesSchemes</key>
-  <array>
-    <string>fbapi</string>
-    <string>fb-messenger-api</string>
-    <string>fbauth2</string>
-    <string>fbshareextension</string>
-  </array>
-  <key>NSPhotoLibraryUsageDescription</key>
-  <string>{HUMAN READABLE REASON FOR PHOTO ACCESS}</string>
-
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb114954199177555</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>114954199177555</string>
+	<key>FacebookDisplayName</key>
+	<string>Dolenta</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>{HUMAN READABLE REASON FOR PHOTO ACCESS}</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -64,7 +63,6 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>

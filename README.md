@@ -3,6 +3,8 @@
 
 This project is aimed at people who want to quickly start developing their mobile Apps using React Native.
 
+![Example gif](http://i.imgur.com/lmC4q4Y.gif)
+
 ## Installation
 Before installing, make sure you are able to successfully run the base React Native project. See [React Native Getting Started Guide](http://facebook.github.io/react-native/docs/getting-started.html) for more information on how to do that.
 
