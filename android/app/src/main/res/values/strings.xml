@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">react_native_with_typescript_redux</string>
+    <string name="facebook_app_id">{YOUR_FACEBOOK_APP_ID}</string>
+    <string name="fb_login_protocol_scheme">fb{YOUR_FACEBOOK_APP_ID}</string>
+</resources>

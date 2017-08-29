@@ -1,0 +1,57 @@
+{
+  "name": "react_native_with_typescript_redux",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.1",
+    "react-native-elements": "^0.16.0",
+    "react-native-fbsdk": "git+https://github.com/facebook/react-native-fbsdk",
+    "react-native-vector-icons": "^4.3.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.6",
+    "redux-thunk": "^2.2.0",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^2.8.6",
+    "@types/jest": "^20.0.7",
+    "@types/react": "^16.0.3",
+    "@types/react-native": "^0.47.6",
+    "@types/react-native-elements": "^0.13.2",
+    "@types/react-native-fbsdk": "^0.6.0",
+    "@types/react-navigation": "^1.0.19",
+    "@types/react-redux": "^5.0.4",
+    "@types/react-test-renderer": "^15.5.4",
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "3.0.0",
+    "jest": "20.0.4",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  }
+}
