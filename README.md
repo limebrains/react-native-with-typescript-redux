@@ -63,8 +63,23 @@ Add a new platform in the Facebook for Developers dashboard. The only informatio
 ### Additional Config
 
 #### iOS
+
 You need to select proper value for your signing team:
 ![signing](https://i.imgur.com/ZZ4TnCq.png)
+
+
+##### JS Code reloading
+
+To enable code reloading you will need to switch variable of `jsCodeLocation` in `ios/AppDelegate.m`
+
+```swift
+NSURL *jsCodeLocation;
+// js code from jsbundle
+jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+// uncomment to enable js code reloading
+// jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+```
+
 
 
 ### Running
